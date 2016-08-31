@@ -23,6 +23,9 @@ export PATH="/home/ben/scripts:$PATH"
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
