@@ -1,0 +1,26 @@
+#!/bin/bash
+
+###
+### my local shell vars
+###
+
+export van=10.20.3.176
+export bvan=$van:/home/ben
+export tor=10.48.0.25
+export btor=$tor:/home/ben
+export rpmb=10.20.4.56
+export spdy=10.20.3.70
+export spdy2=10.20.3.208
+export db4a=10.98.0.4
+export db4b=10.98.0.5
+export f1a=10.98.0.2
+export f1b=10.98.0.3
+export tors=10.48.0.26
+export vans=10.20.3.177
+export build=10.20.4.56
+export ful=172.16.3.78
+export pg1=172.16.3.58
+export pg2=172.16.3.2
+export fu2=172.16.5.173
+
+
