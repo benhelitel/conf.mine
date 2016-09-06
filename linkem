@@ -2,7 +2,7 @@
 
 # $1 = /home tree
 if [ ! $# -eq 1 ]; then
- echo "Please enter a home tree (i.e. linkem /home/ben)
+ echo "Please enter a home tree (i.e. linkem /home/ben)"
 fi
 
 mv $1/.bashrc $1/.bashrc.old
