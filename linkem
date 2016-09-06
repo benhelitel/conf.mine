@@ -2,6 +2,6 @@
 
 mv /home/ben/.bashrc /home/ben/.bashrc.old
 mv /home/ben/.tmux.conf /home/ben/.tmux.conf.old
-link -siv /home/ben/conf.mine/.blocals /home/ben/.blocals
-link -siv /home/ben/conf.mine/.bashrc /home/ben/.bashrc
-link -siv /home/ben/conf.mine/.tmux.conf /home/ben/.tmux.conf
+ln -siv /home/ben/conf.mine/.blocals /home/ben/.blocals
+ln -siv /home/ben/conf.mine/.bashrc /home/ben/.bashrc
+ln -siv /home/ben/conf.mine/.tmux.conf /home/ben/.tmux.conf
