@@ -1,7 +1,12 @@
 #!/bin/bash
 
-mv /home/ben/.bashrc /home/ben/.bashrc.old
-mv /home/ben/.tmux.conf /home/ben/.tmux.conf.old
-ln -siv /home/ben/conf.mine/.blocals /home/ben/.blocals
-ln -siv /home/ben/conf.mine/.bashrc /home/ben/.bashrc
-ln -siv /home/ben/conf.mine/.tmux.conf /home/ben/.tmux.conf
+# $1 = /home tree
+if [ ! $# -eq 1 ]; then
+ echo "Please enter a home tree (i.e. linkem /home/ben)
+fi
+
+mv $1/.bashrc $1/.bashrc.old
+mv $1/.tmux.conf $1/.tmux.conf.old
+ln -siv $1/conf.mine/.blocals $1/.blocals
+ln -siv $1/conf.mine/.bashrc $1/.bashrc
+ln -siv $1/conf.mine/.tmux.conf $1/.tmux.conf
